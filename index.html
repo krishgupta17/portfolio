@@ -477,6 +477,9 @@ section{position:relative}
   .dh .mono,.top .clk{display:none}
 }
 @media(prefers-reduced-motion:reduce){*{animation:none!important}}
+
+/* Credential-led journey */
+.jr{min-height: min(650px,76vh)}.je{top:50%;transform:translateY(calc(-50% + 30px));visibility:hidden}.je.on{transform:translateY(-50%);visibility:visible}.jhead{display:flex;gap:17px;align-items:center;margin-bottom:16px}.jlogo{width:76px;height:76px;object-fit:contain;flex:none;background:#f4efe6;border-radius:14px;padding:8px}.jletter{display:grid;place-items:center;background:var(--card);color:var(--acc);border:1px solid var(--line);font:2rem 'Instrument Serif',serif}.jhead h3{margin:0}.jhead .mono{font-size:.64rem;margin-bottom:7px}.jmetric{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;border-top:1px solid var(--line);padding-top:12px;margin-bottom:10px}.jmetric strong{font:400 clamp(2.5rem,5vw,4.4rem)/1 'Instrument Serif',serif;color:var(--acc)}.jmetric span{color:var(--mute);font-size:.83rem}.jproofs{display:flex;gap:10px;margin-top:20px;flex-wrap:wrap}.jproof{display:flex;align-items:center;gap:10px;flex:1;min-width:145px;text-align:left;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:8px;color:var(--ink);cursor:zoom-in;font:500 .80rem Inter,sans-serif}.jproof:hover,.jproof:focus-visible{border-color:var(--acc)}.jproof img{width:51px;height:64px;object-fit:contain;background:#34302b;border-radius:5px}.jproof small{display:block;color:var(--acc);font-size:.65rem;margin-top:5px} @media(max-width:960px){.jv{gap:1vh;grid-template-columns:1fr;align-content:center}.jl h2{margin:6px 0 10px;font-size:clamp(1.6rem,5vw,2.6rem)}.jl .odo{font-size:2.8rem}.jl .jbar{margin-top:10px}.jr{min-height:390px}.jlogo{width:52px;height:52px}.jhead{margin-bottom:9px}.jhead h3{font-size:1.55rem}.jmetric strong{font-size:2.7rem}.jproofs{margin-top:10px}.jproof img{width:36px;height:42px}.je p{font-size:.85rem}} @media(max-height:690px) and (max-width:960px){.jv{height:100svh}.jl .mono{display:none}.jl h2{font-size:1.5rem}.jl .odo{font-size:2rem}.jr{min-height:330px}.jhead h3{font-size:1.3rem}.jmetric strong{font-size:2rem}.jmetric{padding-top:6px;margin-bottom:5px}.jproof{padding:5px}.jproofs{gap:5px}}
 </style>
 </head>
 <body>
@@ -656,16 +659,18 @@ section{position:relative}
       <div class="odo">
         <div class="od"><div class="strip" id="od1"></div></div>
         <div class="od"><div class="strip" id="od2"></div></div>
-        <span class="of">/ 05</span>
+        <span class="of">/ 07</span>
       </div>
       <div class="jbar"><i></i></div>
     </div>
     <div class="jr">
-      <article class="je"><span class="mono">2022 — 2025</span><h3>B.Com, Amity University</h3><p>Built a solid mathematical and conceptual foundation in financial accounting, corporate commerce, and macroeconomics.</p></article>
-      <article class="je"><span class="mono">Internships</span><h3>Paisalo &amp; Karuna Compassion NGO</h3><p>Practical immersion in financial services, micro-lending operations, and ground-level social impact metrics.</p></article>
-      <article class="je"><span class="mono">2026 — 2028</span><h3>PGDM in Financial Management, FIIB Delhi</h3><p>Immersion in corporate valuation, equity research frameworks, capital budgeting, and business case competitions.</p></article>
-      <article class="je"><span class="mono">In progress</span><h3>CFA Level 1</h3><p>Ethics &amp; professional standards, financial reporting analysis, corporate issuers, equity investments, and fixed income.</p></article>
-      <article class="je"><span class="mono">Next Step</span><h3>Equity research, asset management, investment banking</h3><p>Seeking summer internships and analyst roles where I can learn fast and take ownership of real models.</p></article>
+<article class="je"><div class="jhead"><img class="jlogo" src="img/logo-st-peters.webp" alt="St. Peter’s College, Agra logo"><div><span class="mono">2022 · Education</span><h3>St. Peter’s College, Agra</h3></div></div><div class="jmetric"><strong>86.75%</strong><span>ISC Class XII · best four</span></div><p>Commerce stream. Best-four average of English, Economics, Commerce and Computer Science; awarded the ISC pass certificate.</p><div class="jproofs"><button type="button" class="jproof" data-lb="img/credential-isc.jpg" data-cap="Class XII marksheet · personal identifiers concealed"><img src="img/credential-isc.jpg" alt=""><span>Class XII marksheet<small>View credential ↗</small></span></button></div></article>
+<article class="je"><div class="jhead"><img class="jlogo" src="img/logo-amity.png" alt="Amity University logo"><div><span class="mono">2022–2025 · Education</span><h3>Amity University</h3></div></div><div class="jmetric"><strong>7.29</strong><span>CGPA · First Division</span></div><p>Bachelor of Commerce. Developed foundations in accounting, corporate finance and commerce. Degree conferred on 6 December 2025.</p><div class="jproofs"><button type="button" class="jproof" data-lb="img/credential-degree.jpg" data-cap="B.Com degree · personal identifiers concealed"><img src="img/credential-degree.jpg" alt=""><span>B.Com degree<small>View credential ↗</small></span></button><button type="button" class="jproof" data-lb="img/credential-amity-grades.jpg" data-cap="Statement of grades · personal identifiers concealed"><img src="img/credential-amity-grades.jpg" alt=""><span>Statement of grades<small>View credential ↗</small></span></button></div></article>
+<article class="je"><div class="jhead"><img class="jlogo" src="img/logo-karuna.png" alt="Karuna The Compassion logo"><div><span class="mono">From Jan 2024 · Community</span><h3>Karuna The Compassion</h3></div></div><div class="jmetric"><strong>6 months</strong><span>NGO membership</span></div><p>A documented chapter of community engagement alongside undergraduate studies.</p><div class="jproofs"><button type="button" class="jproof" data-lb="img/credential-karuna.jpg" data-cap="Membership certificate · personal identifiers concealed"><img src="img/credential-karuna.jpg" alt=""><span>Membership certificate<small>View credential ↗</small></span></button></div></article>
+<article class="je"><div class="jhead"><img class="jlogo" src="img/logo-paisalo.jpg" alt="Paisalo logo"><div><span class="mono">Professional exposure · Internship</span><h3>Paisalo</h3></div></div><div class="jmetric"><strong>Finance</strong><span>Financial services</span></div><p>Practical exposure to financial services and micro-lending operations. Internship dates and documentary proof are not displayed.</p></article>
+<article class="je"><div class="jhead"><span class="jlogo jletter" aria-hidden="true">ED</span><div><span class="mono">2026–2028 · Education</span><h3>FIIB Delhi</h3></div></div><div class="jmetric"><strong>PGDM</strong><span>Financial Management</span></div><p>Developing skills in corporate valuation, equity research, capital budgeting and business analysis.</p></article>
+<article class="je"><div class="jhead"><span class="jlogo jletter" aria-hidden="true">LE</span><div><span class="mono">In progress · Learning</span><h3>CFA Level I</h3></div></div><div class="jmetric"><strong>Level I</strong><span>Candidate</span></div><p>Studying ethics, financial statement analysis, corporate issuers, equity investments and fixed income.</p></article>
+<article class="je"><div class="jhead"><span class="jlogo jletter" aria-hidden="true">AM</span><div><span class="mono">Next step · Ambition</span><h3>Building a career in finance</h3></div></div><div class="jmetric"><strong>Research</strong><span>Markets & investments</span></div><p>Seeking internships and analyst opportunities in equity research, asset management and investment banking.</p></article>
     </div>
   </div>
 </section>
@@ -1033,7 +1038,7 @@ setJ(0);
 ScrollTrigger.create({
   trigger:'#journey',
   start:'top top',
-  end:'+=320%',
+  end:'+=460%',
   pin:true,
   onUpdate:s => {
     setJ(Math.min(JN-1, Math.floor(s.progress*JN)));
